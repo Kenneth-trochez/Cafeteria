@@ -1,0 +1,85 @@
+/* Mobile First */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f7f3ef;
+}
+
+h1, h2 {
+  font-weight: 600;
+}
+
+.header-cafe {
+  background-color: #4B2E1E;
+  color: #ffffff;
+}
+
+.footer-cafe {
+  background-color: #6F4E37;
+  color: #ffffff;
+}
+
+body {
+  background-color: #F6EFE8;
+}
+
+.cardcolor {
+  background-color: #c4925f;
+}
+
+
+.product-card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.02);
+}
+
+.product-img {
+  height: 200px;          /* tamaño fijo */
+  object-fit: cover;      /* recorta sin deformar */
+  width: 100%;
+}
+
+
+.card-body {
+  background-color: #fffaf5;
+}
+
+/* Tablets */
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 2.5rem;
+  }
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+  body {
+    background-color: #f1ece6;
+  }
+}
+
+
+/* Bootstrap NO trae café, esto es TEMA PROPIO */
+
+.header-cafe {
+  background-color: #4B2E1E;
+  color: #ffffff;
+}
+
+.footer-cafe {
+  background-color: #6F4E37;
+  color: #ffffff;
+}
+
+body {
+  background-color: #F6EFE8;
+}
+
+.card {
+  background-color: #FFF8F1;
+}
